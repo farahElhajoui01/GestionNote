@@ -22,8 +22,8 @@ public class testFacade {
     }
      public void test() throws SQLException{
       System.out.println("aaaaaaatest");
-      int age=9;
-         String requete="insert into personne values('happy',null,null)";
+      
+        String requete="insert into utilisateur values('moi','moi')";
         Statement st;
         st = c.createStatement();
         try{

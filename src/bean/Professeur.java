@@ -21,6 +21,16 @@ public class Professeur {
      private String email;
      private String sexe;
      private String tel;
+     private Utilisateur utilisateur;
+
+    public Utilisateur getUtilisateur() {
+        return utilisateur;
+    }
+
+    public void setUtilisateur(Utilisateur utilisateur) {
+        this.utilisateur = utilisateur;
+    }
+     
 
     public String getMatricule() {
         return matricule;

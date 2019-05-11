@@ -10,36 +10,20 @@ package bean;
  * @author fatima
  */
 public class Admin {
-      private String login;
-    private String password;
+      
+      private Utilisateur utilisateur;
 
-    public String getLogin() {
-        return login;
+    public Utilisateur getUtilisateur() {
+        return utilisateur;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
+    public void setUtilisateur(Utilisateur utilisateur) {
+        this.utilisateur = utilisateur;
     }
 
     public Admin() {
     }
-
-    public Admin(String login) {
-        this.login = login;
-    }
-
-    public Admin(String login, String password) {
-        this.login = login;
-        this.password = password;
-    }
+      
 
   
     

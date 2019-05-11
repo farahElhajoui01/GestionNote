@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="607.0" prefWidth="969.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="GestionNote.AccueilController">
+   <children>
+      <AnchorPane prefHeight="607.0" prefWidth="969.0">
+         <children>
+            <JFXTextField fx:id="loginTF" layoutX="384.0" layoutY="138.0" maxWidth="198.0" minWidth="181.0" prefHeight="43.0" prefWidth="198.0" />
+            <JFXTextField fx:id="mdpTF" layoutX="386.0" layoutY="204.0" maxWidth="198.0" minWidth="181.0" prefHeight="43.0" prefWidth="198.0" />
+            <JFXButton fx:id="SeconnecterBtn" layoutX="412.0" layoutY="372.0" prefHeight="44.0" prefWidth="148.0" ripplerFill="BLACK" text="Se connecter" />
+            <Label layoutX="226.0" layoutY="173.0" text="Login" />
+            <Label layoutX="227.0" layoutY="239.0" text="Mot de passe" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
