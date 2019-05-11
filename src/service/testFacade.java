@@ -23,7 +23,7 @@ public class testFacade {
      public void test() throws SQLException{
       System.out.println("aaaaaaatest");
       
-        String requete="insert into utilisateur values('moi','moi')";
+        String requete="insert into utilisateur values('lui','lui')";
         Statement st;
         st = c.createStatement();
         try{
